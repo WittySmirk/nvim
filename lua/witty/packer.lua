@@ -15,4 +15,5 @@ return require('packer').startup(function()
 		'neovim/nvim-lspconfig',
 		'ms-jpq/coq_nvim'
 	}
+	use 'andweeb/presence.nvim'
 end)
